@@ -1,0 +1,22 @@
+<Window x:Class="MovieTicket_G3.AdminDashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Admin Dashboard" Height="600" Width="1000" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Sidebar Menu -->
+        <StackPanel Background="#2D2D30" Orientation="Vertical" Grid.Column="0">
+            <TextBlock Text="Admin Menu" Foreground="White" FontSize="18" Margin="10" />
+            <Button Content="Movie Update" Name="btnMovieUpdate" Margin="10" Click="btnMovieUpdate_Click"/>
+            <Button Content="Snack Inventory" Name="btnSnackInventory" Margin="10" Click="btnSnackInventory_Click"/>
+            <Button Content="Booking Menu" Name="btnBookingMenu" Margin="10" Click="btnBookingMenu_Click"/>
+        </StackPanel>
+
+        <!-- Content Area -->
+        <ContentControl x:Name="MainContent" Grid.Column="1" Margin="10"/>
+    </Grid>
+</Window>
