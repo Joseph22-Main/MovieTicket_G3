@@ -1,0 +1,79 @@
+using System.Collections.Generic;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Media;
+
+namespace Movie_System
+{
+    public partial class SeatSelectionWindow : Window
+    {
+        private HashSet<string>selectedSeats = new HashSet
+    <string>();
+
+        public SeatSelectionWindow()
+        {
+            InitializeComponent();
+            GenerateSeatButtons();
+        }
+
+        private void GenerateSeatButtons()
+        {
+            string[] rows = { "A", "B", "C", "D", "E" };
+
+            for (int i = 0; i
+        <5; i++)
+            {
+                for (int j = 1; j <= 5; j++)
+                {
+                    string seatId = $"{rows[i]}{j}";
+
+                    Button seatButton = new Button
+                    {
+                        Content = seatId,
+                        Tag = seatId,
+                        Style = (Style)this.Resources["SeatButtonStyle"]
+                    };
+
+                    seatButton.Click += SeatButton_Click;
+                    SeatGrid.Children.Add(seatButton);
+                }
+            }
+        }
+
+        private void SeatButton_Click(object sender, RoutedEventArgs e)
+        {
+            Button btn = sender as Button;
+            string seat = btn.Tag.ToString();
+
+            if (selectedSeats.Contains(seat))
+            {
+                // Deselect
+                selectedSeats.Remove(seat);
+                btn.Background = Brushes.LightGray;
+                btn.Foreground = Brushes.Black;
+            }
+            else
+            {
+                // Select
+                selectedSeats.Add(seat);
+                btn.Background = Brushes.MediumSeaGreen;
+                btn.Foreground = Brushes.White;
+            }
+        }
+
+        private void ConfirmButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (selectedSeats.Count == 0)
+            {
+                MessageBox.Show("Please select at least one seat.", "No Seats Selected", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            string selected = string.Join(", ", selectedSeats);
+            MessageBox.Show($"You selected: {selected}", "Seats Confirmed", MessageBoxButton.OK, MessageBoxImage.Information);
+
+            // TODO: Save to database or return result to parent window
+            this.Close();
+        }
+    }
+}
