@@ -5,7 +5,7 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200"/>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="600"/>
         </Grid.ColumnDefinitions>
 
         <!-- Sidebar Menu -->
@@ -17,6 +17,58 @@
         </StackPanel>
 
         <!-- Content Area -->
-        <ContentControl x:Name="MainContent" Grid.Column="1" Margin="10"/>
+        <!--Movie Update Section -->
+        <Grid Grid.Column="1" Margin="160,100,0,150">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+            <!-- Add/Edit/Delete Buttons -->
+            <Button Name="AddButton" Visibility="Collapsed" Content="Add Movie" FontSize="40" Grid.Row="0" Click="Add_Click"/>
+            <Button Name="DelButton" Visibility="Collapsed" Content="Delete Movie" FontSize="40" Grid.Row="2" Click="Del_Click"/>
+            <Button Name="EditButton" Visibility="Collapsed" Content="Edit Movie" FontSize="40" Grid.Row="4" Click="Edit_Click"/>
+        </Grid>
+        <!--Snack Inventory Section -->
+        <Grid Grid.Column="1" Margin="160,100,0,150">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+        <!-- Add/Edit/Delete SnacksButtons -->
+            <Button Name="AddSnack" Visibility="Collapsed" Content="Add Snack" FontSize="40" Grid.Row="0" Click="AddSnack_Click"/>
+            <Button Name="DelSnack" Visibility="Collapsed" Content="Delete Snack" FontSize="40" Grid.Row="2" Click="DelSnack_Click"/>
+            <Button Name="EditSnack" Visibility="Collapsed" Content="Edit Snack" FontSize="40" Grid.Row="4" Click="EditSnack_Click"/>
+        <!-- Booking Menu Section -->
+            <Grid Grid.Column="1" Margin="0,0,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+                <Button Name="Movie1" Visibility="Collapsed" Content="Add Snack" FontSize="40" Grid.Row="0" Click="Movie1_Click"/>
+                <Button Name="Movie2" Visibility="Collapsed" Content="Delete Snack" FontSize="40" Grid.Row="2" Click="Movie2_Click"/>
+                <Button Name="Movie3" Visibility="Collapsed" Content="Edit Snack" FontSize="40" Grid.Row="4" Click="Movie3_Click"/>
+                <Button Name="Movie4" Visibility="Collapsed" Content="Edit Snack" FontSize="40" Grid.Row="6" Click="Movie4_Click"/>
+            </Grid>
+        </Grid>
     </Grid>
 </Window>
