@@ -1,79 +1,24 @@
-using System.Collections.Generic;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Media;
+<Window x:Class="Movie_System.SeatSelectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Select Seats" Height="400" Width="400"
+        WindowStartupLocation="CenterScreen">
 
-namespace Movie_System
-{
-    public partial class SeatSelectionWindow : Window
-    {
-        private HashSet<string>selectedSeats = new HashSet
-    <string>();
+    <Window.Resources>
+        <Style x:Key="SeatButtonStyle" TargetType="Button">
+            <Setter Property="Width" Value="50"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+    </Window.Resources>
 
-        public SeatSelectionWindow()
-        {
-            InitializeComponent();
-            GenerateSeatButtons();
-        }
+    <DockPanel Margin="10">
+        <Button Content="Confirm Selection" 
+                DockPanel.Dock="Bottom" 
+                Height="40" 
+                Click="ConfirmButton_Click"/>
 
-        private void GenerateSeatButtons()
-        {
-            string[] rows = { "A", "B", "C", "D", "E" };
-
-            for (int i = 0; i
-        <5; i++)
-            {
-                for (int j = 1; j <= 5; j++)
-                {
-                    string seatId = $"{rows[i]}{j}";
-
-                    Button seatButton = new Button
-                    {
-                        Content = seatId,
-                        Tag = seatId,
-                        Style = (Style)this.Resources["SeatButtonStyle"]
-                    };
-
-                    seatButton.Click += SeatButton_Click;
-                    SeatGrid.Children.Add(seatButton);
-                }
-            }
-        }
-
-        private void SeatButton_Click(object sender, RoutedEventArgs e)
-        {
-            Button btn = sender as Button;
-            string seat = btn.Tag.ToString();
-
-            if (selectedSeats.Contains(seat))
-            {
-                // Deselect
-                selectedSeats.Remove(seat);
-                btn.Background = Brushes.LightGray;
-                btn.Foreground = Brushes.Black;
-            }
-            else
-            {
-                // Select
-                selectedSeats.Add(seat);
-                btn.Background = Brushes.MediumSeaGreen;
-                btn.Foreground = Brushes.White;
-            }
-        }
-
-        private void ConfirmButton_Click(object sender, RoutedEventArgs e)
-        {
-            if (selectedSeats.Count == 0)
-            {
-                MessageBox.Show("Please select at least one seat.", "No Seats Selected", MessageBoxButton.OK, MessageBoxImage.Warning);
-                return;
-            }
-
-            string selected = string.Join(", ", selectedSeats);
-            MessageBox.Show($"You selected: {selected}", "Seats Confirmed", MessageBoxButton.OK, MessageBoxImage.Information);
-
-            // TODO: Save to database or return result to parent window
-            this.Close();
-        }
-    }
-}
+        <UniformGrid Name="SeatGrid" Rows="5" Columns="5"/>
+    </DockPanel>
+</Window>

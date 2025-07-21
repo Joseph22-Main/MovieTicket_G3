@@ -175,9 +175,24 @@ namespace WpfApp1
         }
         private void OpenSeatSelection(object sender, RoutedEventArgs e)
         {
-            SeatSelectionWindow seatWindow = new SeatSelectionWindow("Avengers"); // or the selected movie
-            seatWindow.ShowDialog();
+            // Grab the movie title from the clicked button's content
+            if (sender is Button btn && btn.Content is StackPanel panel)
+            {
+                foreach (var child in panel.Children)
+                {
+                    if (child is TextBlock textBlock)
+                    {
+                        string movieTitle = textBlock.Text;
+
+                        // Open Seat Selection Window with the selected movie
+                        SeatSelectionWindow seatWindow = new SeatSelectionWindow(movieTitle);
+                        seatWindow.ShowDialog();
+                        break;
+                    }
+                }
+            }
         }
+
 
     }
 }

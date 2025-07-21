@@ -4,41 +4,31 @@
         Title="Movie App" Height="400" Width="700"
         Background="#3C375A">
 
-    <Window.Resources>
-        
+	<Window.Resources>
+
 		<!-- Recommended View -->
 		<DataTemplate x:Key="RecommendedView">
 			<StackPanel Margin="20">
 				<TextBlock Text="Most watched" Foreground="White" FontSize="36" Margin="10"/>
 				<WrapPanel Margin="10">
 					<Border Width="500" Height="750" CornerRadius="20" Margin="5" Background="Transparent">
-						<Image Source="https://m.media-amazon.com/images/M/MV5BNGE0YTVjNzUtNzJjOS00NGNlLTgxMzctZTY4YTE1Y2Y1ZTU4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
-							   Stretch="UniformToFill"
-							   ClipToBounds="True"/>
+						<Image Source="Images/avengers.jpg" Stretch="UniformToFill" ClipToBounds="True"/>
 					</Border>
 					<Border Width="500" Height="750" CornerRadius="20" Margin="5" Background="Transparent">
-						<Image Source="https://m.media-amazon.com/images/M/MV5BMjE1MTM4NDAzOF5BMl5BanBnXkFtZTgwNTMwNjI0MzE@._V1_.jpg"
-							   Stretch="UniformToFill"
-							   ClipToBounds="True"/>
+						<Image Source="Images/avengers.jpg" Stretch="UniformToFill" ClipToBounds="True"/>
 					</Border>
 				</WrapPanel>
 
 				<TextBlock Text="Other Products" Foreground="White" FontSize="36" Margin="10"/>
 				<WrapPanel Margin="10">
 					<Border Width="300" Height="300" CornerRadius="20" Margin="5" Background="Transparent">
-						<Image Source="https://png.pngtree.com/png-clipart/20250103/original/pngtree-watch-movie-popcorn-maker-snack-foods-png-image_18726224.png"
-							   Stretch="UniformToFill"
-							   ClipToBounds="True"/>
+						<Image Source="Images/avengers.jpg" Stretch="UniformToFill" ClipToBounds="True"/>
 					</Border>
 					<Border Width="300" Height="300" CornerRadius="20" Margin="5" Background="Transparent">
-						<Image Source="https://cdn3d.iconscout.com/3d/premium/thumb/cinema-drink-3d-icon-download-in-png-blend-fbx-gltf-file-formats--soda-cold-soft-food-beverage-pack-icons-5558335.png"
-							   Stretch="UniformToFill"
-							   ClipToBounds="True"/>
+						<Image Source="Images/avengers.jpg" Stretch="UniformToFill" ClipToBounds="True"/>
 					</Border>
 					<Border Width="300" Height="300" CornerRadius="20" Margin="5" Background="Transparent">
-						<Image Source="https://www.thedailymeal.com/img/gallery/why-is-a-hot-dog-a-snack-option-at-the-movie-theater/iStock-494317722.jpg"
-							   Stretch="UniformToFill"
-							   ClipToBounds="True"/>
+						<Image Source="Images/avengers.jpg" Stretch="UniformToFill" ClipToBounds="True"/>
 					</Border>
 				</WrapPanel>
 			</StackPanel>
@@ -47,7 +37,7 @@
 		<!-- Movies View -->
 		<DataTemplate x:Key="MoviesView">
 			<StackPanel Margin="20">
-				<!-- Genres Section -->
+				<!-- Genre Filters -->
 				<ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled" Margin="0,0,0,10">
 					<StackPanel Orientation="Horizontal">
 						<Button Content="All" Margin="5" Padding="10,5" Background="DarkSlateBlue" Foreground="White" Click="Genre_Click"/>
@@ -59,68 +49,43 @@
 					</StackPanel>
 				</ScrollViewer>
 
-
-				<!-- Movies Grid -->
+				<!-- Movie Grid -->
 				<UniformGrid Columns="2" Rows="2">
-					<Button Click="OpenSeatSelection" Background="Transparent" BorderThickness="0">
+					<Button Click="OpenSeatSelection" Tag="Avengers" Background="Transparent" BorderThickness="0">
 						<StackPanel>
 							<Border Width="500" Height="500" Background="Transparent" CornerRadius="15">
-								<Image Stretch="UniformToFill" ClipToBounds="True">
-									<Image.Source>
-										<BitmapImage UriSource="https://m.media-amazon.com/images/M/MV5BNGE0YTVjNzUtNzJjOS00NGNlLTgxMzctZTY4YTE1Y2Y1ZTU4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
-													 CreateOptions="IgnoreImageCache"/>
-									</Image.Source>
-								</Image>
+								<Image Source="Images/avengers.jpg" Stretch="UniformToFill" ClipToBounds="True"/>
 							</Border>
 							<TextBlock Text="Avengers" Foreground="White" HorizontalAlignment="Center" Margin="5"/>
 						</StackPanel>
 					</Button>
-
-					<Button Click="OpenSeatSelection" Background="Transparent" BorderThickness="0">
+					<Button Click="OpenSeatSelection" Tag="Avengers" Background="Transparent" BorderThickness="0">
 						<StackPanel>
 							<Border Width="500" Height="500" Background="Transparent" CornerRadius="15">
-								<Image Stretch="UniformToFill" ClipToBounds="True">
-									<Image.Source>
-										<BitmapImage UriSource="https://play-lh.googleusercontent.com/10M4F-ok0cYTtDz7rEBFUK5WmXm0Tg-vnYhnWIrywcslsz9QgenIMFHOiupKLUNJ1zI"
-													 CreateOptions="IgnoreImageCache"/>
-									</Image.Source>
-								</Image>
+								<Image Source="Images/avengers.jpg" Stretch="UniformToFill" ClipToBounds="True"/>
 							</Border>
-							<TextBlock Text="Despicable Me" Foreground="White" HorizontalAlignment="Center" Margin="5"/>
+							<TextBlock Text="Avengers" Foreground="White" HorizontalAlignment="Center" Margin="5"/>
 						</StackPanel>
 					</Button>
-
-					<Button Click="OpenSeatSelection" Background="Transparent" BorderThickness="0">
+					<Button Click="OpenSeatSelection" Tag="Avengers" Background="Transparent" BorderThickness="0">
 						<StackPanel>
 							<Border Width="500" Height="500" Background="Transparent" CornerRadius="15">
-								<Image Stretch="UniformToFill" ClipToBounds="True">
-									<Image.Source>
-										<BitmapImage UriSource="https://m.media-amazon.com/images/S/pv-target-images/9fe3eef6b0b80d9440cccaf618c2b7785a433b96a7812bb4e8e18945b4e7a231.jpg"
-													 CreateOptions="IgnoreImageCache"/>
-									</Image.Source>
-								</Image>
+								<Image Source="Images/avengers.jpg" Stretch="UniformToFill" ClipToBounds="True"/>
 							</Border>
-							<TextBlock Text="Forrest Gump" Foreground="White" HorizontalAlignment="Center" Margin="5"/>
+							<TextBlock Text="Avengers" Foreground="White" HorizontalAlignment="Center" Margin="5"/>
 						</StackPanel>
 					</Button>
-
-					<Button Click="OpenSeatSelection" Background="Transparent" BorderThickness="0">
+					<Button Click="OpenSeatSelection" Tag="Avengers" Background="Transparent" BorderThickness="0">
 						<StackPanel>
 							<Border Width="500" Height="500" Background="Transparent" CornerRadius="15">
-								<Image Stretch="UniformToFill" ClipToBounds="True">
-									<Image.Source>
-										<BitmapImage UriSource="https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Sausage_Party_logo.png/250px-Sausage_Party_logo.png"
-													 CreateOptions="IgnoreImageCache"/>
-									</Image.Source>
-								</Image>
+								<Image Source="Images/avengers.jpg" Stretch="UniformToFill" ClipToBounds="True"/>
 							</Border>
-							<TextBlock Text="Sausage Party" Foreground="White" HorizontalAlignment="Center" Margin="5"/>
+							<TextBlock Text="Avengers" Foreground="White" HorizontalAlignment="Center" Margin="5"/>
 						</StackPanel>
 					</Button>
 				</UniformGrid>
 			</StackPanel>
 		</DataTemplate>
-
 
 		<!-- Account View -->
 		<DataTemplate x:Key="AccountView">
@@ -131,27 +96,20 @@
 				</Grid.ColumnDefinitions>
 
 				<StackPanel Grid.Column="1" Margin="40,40,40,0" VerticalAlignment="Top">
-					<!-- Profile Placeholder -->
 					<StackPanel Orientation="Horizontal" Margin="0,0,0,20">
 						<Ellipse Width="80" Height="80" Fill="#2A2550"/>
 						<TextBlock Text="John Rivals" Foreground="White" FontSize="20" Margin="20,25,0,0"/>
 					</StackPanel>
-
-					<Button Background="#2A2550" Foreground="White" FontSize="14" Padding="10" Margin="0,0,0,10" BorderThickness="0"
-							HorizontalContentAlignment="Left">
+					<Button Background="#2A2550" Foreground="White" FontSize="14" Padding="10" Margin="0,0,0,10" BorderThickness="0" HorizontalContentAlignment="Left">
 						Email: RivalsMaster123@gmail.com
 					</Button>
-
-					<Button Background="#2A2550" Foreground="White" FontSize="14" Padding="10" Margin="0,0,0,10" BorderThickness="0"
-							HorizontalContentAlignment="Left">
+					<Button Background="#2A2550" Foreground="White" FontSize="14" Padding="10" Margin="0,0,0,10" BorderThickness="0" HorizontalContentAlignment="Left">
 						<StackPanel Orientation="Horizontal">
 							<TextBlock Text="[+]" Margin="0,0,10,0"/>
 							<TextBlock Text="Add another account"/>
 						</StackPanel>
 					</Button>
-
-					<Button Background="#2A2550" Foreground="White" FontSize="14" Padding="10" Margin="0,0,0,10" BorderThickness="0"
-							HorizontalContentAlignment="Left">
+					<Button Background="#2A2550" Foreground="White" FontSize="14" Padding="10" Margin="0,0,0,10" BorderThickness="0" HorizontalContentAlignment="Left">
 						<StackPanel Orientation="Horizontal">
 							<TextBlock Text="[←]" Margin="0,0,10,0"/>
 							<TextBlock Text="Sign Out"/>
@@ -160,41 +118,42 @@
 				</StackPanel>
 			</Grid>
 		</DataTemplate>
+	</Window.Resources>
 
-
-		<Grid>
-        <!-- Top Bar -->
-        <DockPanel LastChildFill="False" Height="50" VerticalAlignment="Top" Background="#221E40">
-            <TextBox Width="200" Height="30" Margin="10" VerticalAlignment="Center"
+	<!-- MAIN WINDOW CONTENT OUTSIDE OF Window.Resources -->
+	<Grid>
+		<!-- Top Bar -->
+		<DockPanel LastChildFill="False" Height="50" VerticalAlignment="Top" Background="#221E40">
+			<TextBox Width="200" Height="30" Margin="10" VerticalAlignment="Center"
                      Background="#2C4A5E" Foreground="Black" Text="Search"
                      FontStyle="Italic" />
-        </DockPanel>
+		</DockPanel>
 
-        <!-- Main Layout -->
+		<!-- Main Layout -->
 		<Grid Margin="0,50,0,0">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="200"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="200"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
 
-            <!-- Sidebar -->
-            <StackPanel Grid.Column="0" Background="#2F4960">
-                <Button x:Name="RecommendedButton" Content="Recommended" Margin="10" Padding="10"
+			<!-- Sidebar -->
+			<StackPanel Grid.Column="0" Background="#2F4960">
+				<Button x:Name="RecommendedButton" Content="Recommended" Margin="10" Padding="10"
                         Background="#233649" Foreground="White" BorderThickness="0"
                         Click="Recommended_Click"/>
-                <Button x:Name="MoviesButton" Content="Movies" Margin="10" Padding="10"
+				<Button x:Name="MoviesButton" Content="Movies" Margin="10" Padding="10"
                         Background="Transparent" Foreground="White" BorderThickness="0"
                         Click="Movies_Click"/>
-                <Button x:Name="AccountButton" Content="Account" Margin="10" Padding="10"
+				<Button x:Name="AccountButton" Content="Account" Margin="10" Padding="10"
                         Background="Transparent" Foreground="White" BorderThickness="0"
                         Click="Account_Click"/>
-            </StackPanel>
+			</StackPanel>
 
-            <!-- Content Area -->
+			<!-- Content Area -->
 			<ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto" Margin="0,10,0,-10">
-                <ContentControl x:Name="MainContent"
+				<ContentControl x:Name="MainContent"
                                 ContentTemplate="{StaticResource RecommendedView}"/>
-            </ScrollViewer>
-        </Grid>
-    </Grid>
+			</ScrollViewer>
+		</Grid>
+	</Grid>
 </Window>
