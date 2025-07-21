@@ -1,0 +1,85 @@
+﻿<Window x:Class="Pre_Order_Menu.SnackOrderSummaryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Order Summary" Height="500" Width="500" Background="#28282B">
+    <Window.Resources>
+        <!-- Circular Button Style -->
+        <Style x:Key="PillButtonStyle" TargetType="Button">
+            <Setter Property="Width" Value="140"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="#007ACC"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                            CornerRadius="20"
+                            SnapsToDevicePixels="True">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                          VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+	<Grid Margin="10">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="*"/>
+			<!-- ListBox -->
+			<RowDefinition Height="Auto"/>
+			<!-- Total Text -->
+			<RowDefinition Height="Auto"/>
+			<!-- Buttons -->
+		</Grid.RowDefinitions>
+
+		<ListBox x:Name="OrderListBox"
+				 Grid.Row="0"
+				 Background="#333"
+				 Foreground="White"
+				 FontSize="16"
+				 Margin="0,0,0,10"/>
+
+		<!-- Total Display -->
+		<TextBlock x:Name="txtTotal"
+				   Grid.Row="1"
+				   FontSize="18"
+				   FontWeight="Bold"
+				   Foreground="White"
+				   HorizontalAlignment="Right"
+				   Margin="0,0,10,10"
+				   Text="Total: ₱0.00"/>
+
+		<!-- Buttons -->
+		<Grid Grid.Row="2" Margin="0,10,0,0">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="*" />
+			</Grid.ColumnDefinitions>
+
+			<Button Content="Edit Item"
+					Grid.Column="0"
+					Style="{StaticResource PillButtonStyle}"
+					Click="EditItem_Click"
+					Margin="5"/>
+
+			<Button Content="Delete Item"
+					Grid.Column="1"
+					Style="{StaticResource PillButtonStyle}"
+					Click="DeleteItem_Click"
+					Margin="5"/>
+
+			<Button Content="Confirm Order"
+					Grid.Column="2"
+					Style="{StaticResource PillButtonStyle}"
+					Click="ConfirmOrder_Click"
+					Margin="5"/>
+		</Grid>
+	</Grid>
+</Window>
