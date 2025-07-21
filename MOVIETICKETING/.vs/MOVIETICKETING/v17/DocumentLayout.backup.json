@@ -3,44 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\addeditsnackwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\addeditsnackwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\changepasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\changepasswordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\changepasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\changepasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\admindashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\admindashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\addeditsnackwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\addeditsnackwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\admindashboardwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\admindashboardwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\adduserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\adduserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\adduserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\adduserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\snack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\snack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\addeditmoviewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,20 +27,72 @@
       "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\addeditmoviewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\admindashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\admindashboardwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\myticketswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\myticketswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\receiptwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\receiptwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\showtimeselectionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\showtimeselectionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\seatselectionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\seatselectionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\seatselectionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\seatselectionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\showtimeselectionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\showtimeselectionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\addshowtimewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\addshowtimewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\addshowtimewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\addshowtimewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\showtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\showtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\theater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\theater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\snackmenuwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\snackmenuwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\snackmenuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\snackmenuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|c:\\users\\francis\\desktop\\toru\u0027s stuff\\cpe106_project\\movieticket_g3\\movieticketing\\movieticketing\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7E0E19-3BB2-45A8-8BDE-F0CEA8CF60FF}|MOVIETICKETING\\MOVIETICKETING.csproj|solutionrelative:movieticketing\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,217 +102,302 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MOVIETICKETING\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\MainWindow.xaml",
-              "RelativeToolTip": "MOVIETICKETING\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-21T21:28:39.378Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\Movie.cs",
-              "RelativeDocumentMoniker": "MOVIETICKETING\\Movie.cs",
-              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\Movie.cs",
-              "RelativeToolTip": "MOVIETICKETING\\Movie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Snack.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\Snack.cs",
+              "RelativeDocumentMoniker": "MOVIETICKETING\\Snack.cs",
+              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\Snack.cs",
+              "RelativeToolTip": "MOVIETICKETING\\Snack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T21:54:52.226Z",
+              "WhenOpened": "2025-07-21T22:18:17.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MOVIETICKETING\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MOVIETICKETING\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAmwOsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T21:53:18.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChangePasswordWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\ChangePasswordWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MOVIETICKETING\\ChangePasswordWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\ChangePasswordWindow.xaml.cs",
-              "RelativeToolTip": "MOVIETICKETING\\ChangePasswordWindow.xaml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAmwFAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T21:53:01.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ChangePasswordWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\ChangePasswordWindow.xaml",
-              "RelativeDocumentMoniker": "MOVIETICKETING\\ChangePasswordWindow.xaml",
-              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\ChangePasswordWindow.xaml",
-              "RelativeToolTip": "MOVIETICKETING\\ChangePasswordWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-21T21:52:41.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddUserWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AddUserWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MOVIETICKETING\\AddUserWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AddUserWindow.xaml.cs",
-              "RelativeToolTip": "MOVIETICKETING\\AddUserWindow.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAmwE0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T21:47:19.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "AdminDashboardWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AdminDashboardWindow.xaml",
               "RelativeDocumentMoniker": "MOVIETICKETING\\AdminDashboardWindow.xaml",
               "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AdminDashboardWindow.xaml",
               "RelativeToolTip": "MOVIETICKETING\\AdminDashboardWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-21T21:39:00Z",
+              "WhenOpened": "2025-07-21T22:30:09.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminDashboardWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AdminDashboardWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MOVIETICKETING\\AdminDashboardWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AdminDashboardWindow.xaml.cs",
-              "RelativeToolTip": "MOVIETICKETING\\AdminDashboardWindow.xaml.cs",
-              "ViewState": "AgIAAKUAAAAAAAAAAAAmwOEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T21:39:55.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AddUserWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AddUserWindow.xaml",
-              "RelativeDocumentMoniker": "MOVIETICKETING\\AddUserWindow.xaml",
-              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AddUserWindow.xaml",
-              "RelativeToolTip": "MOVIETICKETING\\AddUserWindow.xaml",
+              "DocumentIndex": 1,
+              "Title": "AddEditSnackWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AddEditSnackWindow.xaml",
+              "RelativeDocumentMoniker": "MOVIETICKETING\\AddEditSnackWindow.xaml",
+              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AddEditSnackWindow.xaml",
+              "RelativeToolTip": "MOVIETICKETING\\AddEditSnackWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-21T21:47:06.792Z",
+              "WhenOpened": "2025-07-21T22:50:18.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\User.cs",
-              "RelativeDocumentMoniker": "MOVIETICKETING\\User.cs",
-              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\User.cs",
-              "RelativeToolTip": "MOVIETICKETING\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AddEditSnackWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AddEditSnackWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MOVIETICKETING\\AddEditSnackWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AddEditSnackWindow.xaml.cs",
+              "RelativeToolTip": "MOVIETICKETING\\AddEditSnackWindow.xaml.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T21:46:36.136Z",
+              "WhenOpened": "2025-07-21T22:50:52.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "AddEditMovieWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AddEditMovieWindow.xaml.cs",
               "RelativeDocumentMoniker": "MOVIETICKETING\\AddEditMovieWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AddEditMovieWindow.xaml.cs",
               "RelativeToolTip": "MOVIETICKETING\\AddEditMovieWindow.xaml.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAmwGAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T21:39:46.816Z",
+              "WhenOpened": "2025-07-21T22:51:17.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "AddEditMovieWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AddEditMovieWindow.xaml",
               "RelativeDocumentMoniker": "MOVIETICKETING\\AddEditMovieWindow.xaml",
               "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AddEditMovieWindow.xaml",
               "RelativeToolTip": "MOVIETICKETING\\AddEditMovieWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-21T21:39:27.203Z",
+              "WhenOpened": "2025-07-21T22:54:09.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\LoginWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MOVIETICKETING\\LoginWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\LoginWindow.xaml.cs",
-              "RelativeToolTip": "MOVIETICKETING\\LoginWindow.xaml.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAmwIMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MOVIETICKETING\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MOVIETICKETING\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAqwFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T21:31:14.078Z",
+              "WhenOpened": "2025-07-21T22:39:43.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\LoginWindow.xaml",
-              "RelativeDocumentMoniker": "MOVIETICKETING\\LoginWindow.xaml",
-              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\LoginWindow.xaml",
-              "RelativeToolTip": "MOVIETICKETING\\LoginWindow.xaml",
+              "DocumentIndex": 6,
+              "Title": "AdminDashboardWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AdminDashboardWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MOVIETICKETING\\AdminDashboardWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AdminDashboardWindow.xaml.cs",
+              "RelativeToolTip": "MOVIETICKETING\\AdminDashboardWindow.xaml.cs",
+              "ViewState": "AgIAADYBAAAAAAAAAAAqwF8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T22:30:17.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MyTicketsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\MyTicketsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MOVIETICKETING\\MyTicketsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\MyTicketsWindow.xaml.cs",
+              "RelativeToolTip": "MOVIETICKETING\\MyTicketsWindow.xaml.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAqwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T22:47:06.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReceiptWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\ReceiptWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MOVIETICKETING\\ReceiptWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\ReceiptWindow.xaml.cs",
+              "RelativeToolTip": "MOVIETICKETING\\ReceiptWindow.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T22:46:12.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MOVIETICKETING\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\MainWindow.xaml",
+              "RelativeToolTip": "MOVIETICKETING\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-21T21:31:01.36Z",
+              "WhenOpened": "2025-07-21T22:39:03.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "RegisterWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\RegisterWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MOVIETICKETING\\RegisterWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\RegisterWindow.xaml.cs",
-              "RelativeToolTip": "MOVIETICKETING\\RegisterWindow.xaml.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAmwGMAAAAAAAAAAAAAAA==",
+              "Title": "SeatSelectionWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\SeatSelectionWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MOVIETICKETING\\SeatSelectionWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\SeatSelectionWindow.xaml.cs",
+              "RelativeToolTip": "MOVIETICKETING\\SeatSelectionWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T21:30:47.533Z",
+              "WhenOpened": "2025-07-21T22:38:27.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ShowtimeSelectionWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\ShowtimeSelectionWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MOVIETICKETING\\ShowtimeSelectionWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\ShowtimeSelectionWindow.xaml.cs",
+              "RelativeToolTip": "MOVIETICKETING\\ShowtimeSelectionWindow.xaml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAqwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T22:37:19.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "RegisterWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\RegisterWindow.xaml",
-              "RelativeDocumentMoniker": "MOVIETICKETING\\RegisterWindow.xaml",
-              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\RegisterWindow.xaml",
-              "RelativeToolTip": "MOVIETICKETING\\RegisterWindow.xaml",
+              "Title": "SeatSelectionWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\SeatSelectionWindow.xaml",
+              "RelativeDocumentMoniker": "MOVIETICKETING\\SeatSelectionWindow.xaml",
+              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\SeatSelectionWindow.xaml",
+              "RelativeToolTip": "MOVIETICKETING\\SeatSelectionWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-21T21:29:59.028Z",
+              "WhenOpened": "2025-07-21T22:37:30.886Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ShowtimeSelectionWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\ShowtimeSelectionWindow.xaml",
+              "RelativeDocumentMoniker": "MOVIETICKETING\\ShowtimeSelectionWindow.xaml",
+              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\ShowtimeSelectionWindow.xaml",
+              "RelativeToolTip": "MOVIETICKETING\\ShowtimeSelectionWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-21T22:36:57.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddShowtimeWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AddShowtimeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MOVIETICKETING\\AddShowtimeWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AddShowtimeWindow.xaml.cs",
+              "RelativeToolTip": "MOVIETICKETING\\AddShowtimeWindow.xaml.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAqwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T22:31:24.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddShowtimeWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AddShowtimeWindow.xaml",
+              "RelativeDocumentMoniker": "MOVIETICKETING\\AddShowtimeWindow.xaml",
+              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\AddShowtimeWindow.xaml",
+              "RelativeToolTip": "MOVIETICKETING\\AddShowtimeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-21T22:31:11.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Showtime.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\Showtime.cs",
+              "RelativeDocumentMoniker": "MOVIETICKETING\\Showtime.cs",
+              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\Showtime.cs",
+              "RelativeToolTip": "MOVIETICKETING\\Showtime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T22:29:52.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Seat.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\Seat.cs",
+              "RelativeDocumentMoniker": "MOVIETICKETING\\Seat.cs",
+              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\Seat.cs",
+              "RelativeToolTip": "MOVIETICKETING\\Seat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T22:29:38.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Theater.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\Theater.cs",
+              "RelativeDocumentMoniker": "MOVIETICKETING\\Theater.cs",
+              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\Theater.cs",
+              "RelativeToolTip": "MOVIETICKETING\\Theater.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T22:29:16.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SnackMenuWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\SnackMenuWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MOVIETICKETING\\SnackMenuWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\SnackMenuWindow.xaml.cs",
+              "RelativeToolTip": "MOVIETICKETING\\SnackMenuWindow.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T22:18:24.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SnackMenuWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\SnackMenuWindow.xaml",
+              "RelativeDocumentMoniker": "MOVIETICKETING\\SnackMenuWindow.xaml",
+              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\SnackMenuWindow.xaml",
+              "RelativeToolTip": "MOVIETICKETING\\SnackMenuWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-21T22:16:54.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\User.cs",
+              "RelativeDocumentMoniker": "MOVIETICKETING\\User.cs",
+              "ToolTip": "C:\\Users\\Francis\\Desktop\\toru\u0027s stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\User.cs",
+              "RelativeToolTip": "MOVIETICKETING\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T22:15:22.882Z",
+              "EditorCaption": ""
             }
           ]
         }

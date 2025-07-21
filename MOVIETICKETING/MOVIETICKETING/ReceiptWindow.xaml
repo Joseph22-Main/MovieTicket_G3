@@ -1,12 +1,50 @@
 ﻿<Window x:Class="MOVIETICKETING.ReceiptWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Receipt" Height="250" Width="350">
-    <Grid Margin="20">
-        <StackPanel>
-            <TextBlock x:Name="TitleText" FontSize="18" FontWeight="Bold" Margin="0,0,0,10"/>
-            <TextBlock x:Name="SeatsText" FontSize="14" Margin="0,0,0,10"/>
-            <TextBlock x:Name="TotalText" FontSize="16" FontWeight="Bold"/>
+        Title="E-Receipt" Height="600" Width="450"
+        Background="White" WindowStartupLocation="CenterScreen">
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" x:Name="PrintArea" BorderBrush="LightGray" BorderThickness="1" Padding="10">
+            <StackPanel>
+                <TextBlock Text="MOVIE TICKET E-RECEIPT" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                <TextBlock x:Name="TransactionDateText" Text="Date: " FontWeight="SemiBold"/>
+                <Separator Margin="0,5"/>
+
+                <TextBlock Text="MOVIE DETAILS" FontSize="16" FontWeight="Bold" Margin="0,10,0,5"/>
+                <TextBlock x:Name="MovieTitleText" Text="Movie: "/>
+                <TextBlock x:Name="SeatsText" Text="Seats: " TextWrapping="Wrap"/>
+                <TextBlock x:Name="TicketPriceText" Text="Ticket Price: "/>
+
+                <TextBlock Text="SNACKS" FontSize="16" FontWeight="Bold" Margin="0,15,0,5"/>
+                <ItemsControl x:Name="SnacksItemsControl">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0" Text="{Binding Name}"/>
+                                <TextBlock Grid.Column="1" Text="{Binding Price, StringFormat=C, ConverterCulture=en-PH}"/>
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+                <TextBlock x:Name="NoSnacksText" Text="No snacks purchased." Visibility="Collapsed"/>
+
+                <Separator Margin="0,15"/>
+                <TextBlock x:Name="TotalAmountText" Text="TOTAL AMOUNT: " FontSize="18" FontWeight="Bold" HorizontalAlignment="Right" Margin="0,10,0,0"/>
+            </StackPanel>
+        </Border>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,15,0,0">
+            <Button Content="Print Receipt" Click="PrintButton_Click" Padding="10,5" Margin="5"/>
+            <Button Content="Close" Click="CloseButton_Click" Padding="10,5" Margin="5"/>
         </StackPanel>
     </Grid>
 </Window>

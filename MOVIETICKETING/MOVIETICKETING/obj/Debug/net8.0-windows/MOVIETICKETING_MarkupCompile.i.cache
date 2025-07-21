@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\Francis\Desktop\toru's stuff\CPE106_Project\MovieTicket_G3\MOVIETICKETING\MOVIETICKETING\App.xaml
-12-119679235
+17-298890082
 51167803976
-19-1378891383
+29112021748
 216-707021494
-AddEditMovieWindow.xaml;AddUserWindow.xaml;AdminDashboardWindow.xaml;ChangePasswordWindow.xaml;LoginWindow.xaml;MainWindow.xaml;ReceiptWindow.xaml;RegisterWindow.xaml;SeatSelectionWindow.xaml;SnackMenuWindow.xaml;SnackOrderSummaryWindow.xaml;SnackReceiptWindow.xaml;
+AccountWindow.xaml;AddEditMovieWindow.xaml;AddEditSnackWindow.xaml;AddShowtimeWindow.xaml;AddUserWindow.xaml;AdminDashboardWindow.xaml;ChangePasswordWindow.xaml;LoginWindow.xaml;MainWindow.xaml;MyTicketsWindow.xaml;ReceiptWindow.xaml;RegisterWindow.xaml;SeatSelectionWindow.xaml;ShowtimeSelectionWindow.xaml;SnackMenuWindow.xaml;SnackOrderSummaryWindow.xaml;SnackReceiptWindow.xaml;
 
 False
 

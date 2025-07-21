@@ -140,3 +140,13 @@ C:\Users\Francis\Desktop\toru's stuff\CPE106_Project\MovieTicket_G3\MOVIETICKETI
 C:\Users\Francis\Desktop\toru's stuff\CPE106_Project\MovieTicket_G3\MOVIETICKETING\MOVIETICKETING\obj\Debug\net8.0-windows\AddUserWindow.g.cs
 C:\Users\Francis\Desktop\toru's stuff\CPE106_Project\MovieTicket_G3\MOVIETICKETING\MOVIETICKETING\obj\Debug\net8.0-windows\ChangePasswordWindow.baml
 C:\Users\Francis\Desktop\toru's stuff\CPE106_Project\MovieTicket_G3\MOVIETICKETING\MOVIETICKETING\obj\Debug\net8.0-windows\ChangePasswordWindow.g.cs
+C:\Users\Francis\Desktop\toru's stuff\CPE106_Project\MovieTicket_G3\MOVIETICKETING\MOVIETICKETING\obj\Debug\net8.0-windows\AccountWindow.baml
+C:\Users\Francis\Desktop\toru's stuff\CPE106_Project\MovieTicket_G3\MOVIETICKETING\MOVIETICKETING\obj\Debug\net8.0-windows\MyTicketsWindow.baml
+C:\Users\Francis\Desktop\toru's stuff\CPE106_Project\MovieTicket_G3\MOVIETICKETING\MOVIETICKETING\obj\Debug\net8.0-windows\AccountWindow.g.cs
+C:\Users\Francis\Desktop\toru's stuff\CPE106_Project\MovieTicket_G3\MOVIETICKETING\MOVIETICKETING\obj\Debug\net8.0-windows\MyTicketsWindow.g.cs
+C:\Users\Francis\Desktop\toru's stuff\CPE106_Project\MovieTicket_G3\MOVIETICKETING\MOVIETICKETING\obj\Debug\net8.0-windows\AddShowtimeWindow.baml
+C:\Users\Francis\Desktop\toru's stuff\CPE106_Project\MovieTicket_G3\MOVIETICKETING\MOVIETICKETING\obj\Debug\net8.0-windows\AddShowtimeWindow.g.cs
+C:\Users\Francis\Desktop\toru's stuff\CPE106_Project\MovieTicket_G3\MOVIETICKETING\MOVIETICKETING\obj\Debug\net8.0-windows\ShowtimeSelectionWindow.baml
+C:\Users\Francis\Desktop\toru's stuff\CPE106_Project\MovieTicket_G3\MOVIETICKETING\MOVIETICKETING\obj\Debug\net8.0-windows\ShowtimeSelectionWindow.g.cs
+C:\Users\Francis\Desktop\toru's stuff\CPE106_Project\MovieTicket_G3\MOVIETICKETING\MOVIETICKETING\obj\Debug\net8.0-windows\AddEditSnackWindow.baml
+C:\Users\Francis\Desktop\toru's stuff\CPE106_Project\MovieTicket_G3\MOVIETICKETING\MOVIETICKETING\obj\Debug\net8.0-windows\AddEditSnackWindow.g.cs

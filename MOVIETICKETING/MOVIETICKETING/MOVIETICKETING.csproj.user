@@ -2,7 +2,16 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="AccountWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="AddEditMovieWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddEditSnackWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddShowtimeWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="AddUserWindow.xaml.cs">
@@ -17,6 +26,9 @@
     <Compile Update="MainWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="MyTicketsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="RegisterWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -24,6 +36,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ReceiptWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ShowtimeSelectionWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="SnackMenuWindow.xaml.cs">

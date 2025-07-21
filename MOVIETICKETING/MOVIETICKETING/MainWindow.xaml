@@ -30,15 +30,22 @@
 
             <StackPanel Background="#A7C957" VerticalAlignment="Top">
                 <Border CornerRadius="16" BorderBrush="White" BorderThickness="2" Margin="10,10,10,5">
-                    <Button x:Name="RecommendedButton" Content="Recommended"
-                            Click="Recommended_Click"
+                    <Button x:Name="MoviesButton" Content="Movies"
+                            Click="Movies_Click"
                             Padding="5"
                             Background="Transparent" Foreground="Black"
                             BorderThickness="0"/>
                 </Border>
                 <Border CornerRadius="16" BorderBrush="White" BorderThickness="2" Margin="10,5">
-                    <Button x:Name="MoviesButton" Content="Movies"
-                            Click="Movies_Click"
+                    <Button x:Name="MyTicketsButton" Content="My Tickets"
+                            Click="MyTickets_Click"
+                            Padding="5"
+                            Background="Transparent" Foreground="Black"
+                            BorderThickness="0"/>
+                </Border>
+                <Border CornerRadius="16" BorderBrush="White" BorderThickness="2" Margin="10,5">
+                    <Button x:Name="SnacksButton" Content="Snacks"
+                            Click="Snacks_Click"
                             Padding="5"
                             Background="Transparent" Foreground="Black"
                             BorderThickness="0"/>
@@ -62,7 +69,25 @@
             </StackPanel>
 
             <ScrollViewer Grid.Column="1">
-                <StackPanel x:Name="MainContent" Margin="10"/>
+                <ItemsControl x:Name="MainContent">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Button Click="Movie_Click" Margin="10" Background="Transparent" BorderThickness="0" Cursor="Hand">
+                                <StackPanel Width="220">
+                                    <Image Source="{Binding ImageFullPath}" Height="260" Stretch="UniformToFill"/>
+                                    <TextBlock Text="{Binding Title}" FontWeight="Bold" Margin="0,5,0,0" TextAlignment="Center"/>
+                                    <TextBlock Text="{Binding Genre}" TextAlignment="Center"/>
+                                    <TextBlock Text="{Binding Price, StringFormat=C, ConverterCulture=en-PH}" TextAlignment="Center"/>
+                                </StackPanel>
+                            </Button>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
             </ScrollViewer>
         </Grid>
     </Grid>

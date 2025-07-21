@@ -46,7 +46,6 @@
                     Click="AdminLoginButton_Click"
                     Background="#FF4CAF50" Foreground="White" Padding="10,5"/>
 
-            <!-- ADDED: Register button -->
             <Button Content="Don't have an account? Register"
                     Click="RegisterButton_Click"
                     Background="Transparent" Foreground="Gray" BorderThickness="0" Margin="0,15,0,0"

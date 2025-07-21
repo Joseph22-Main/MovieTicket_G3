@@ -8,7 +8,6 @@ namespace MOVIETICKETING
         {
             base.OnStartup(e);
 
-            // Show login first
             var login = new LoginWindow();
             login.Show();
         }
