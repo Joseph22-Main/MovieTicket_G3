@@ -1,7 +1,7 @@
 ﻿<Window x:Class="MOVIETICKETING.LoginWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Login" Height="450" Width="300"
+        Title="Login" Height="500" Width="350"
         xmlns:local="clr-namespace:MOVIETICKETING">
     <Window.Resources>
         <local:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
@@ -41,10 +41,16 @@
                     Click="LetsBingeButton_Click"
                     Background="#FF222222" Foreground="White" Padding="10,5" Margin="0,0,0,10"/>
 
-            
+
             <Button Content="Admin Login"
                     Click="AdminLoginButton_Click"
                     Background="#FF4CAF50" Foreground="White" Padding="10,5"/>
+
+            <!-- ADDED: Register button -->
+            <Button Content="Don't have an account? Register"
+                    Click="RegisterButton_Click"
+                    Background="Transparent" Foreground="Gray" BorderThickness="0" Margin="0,15,0,0"
+                    Cursor="Hand"/>
 
             <TextBlock x:Name="ErrorText"
                        Foreground="Red"

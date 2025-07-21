@@ -1,19 +1,20 @@
-﻿using System;
+﻿using Microsoft.Data.SqlClient;
+using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using Microsoft.Data.SqlClient; // UPDATED: Using the new SQL client
-using System.Configuration;
 
 namespace MOVIETICKETING
 {
     public partial class MainWindow : Window
     {
         private readonly Random random = new Random();
-        private string userEmail = ""; // FIX: Initialized to prevent null warning
+        private string userEmail = "";
         private List<Movie> currentMovies = new List<Movie>();
 
         public MainWindow(string email)
@@ -76,7 +77,6 @@ namespace MOVIETICKETING
             }
         }
 
-        // ... (No changes to other methods like Recommended_Click, Movies_Click, etc.)
         private void Recommended_Click(object sender, RoutedEventArgs e)
         {
             var recommended = currentMovies.OrderBy(_ => random.Next()).Take(2).ToList();
@@ -90,6 +90,7 @@ namespace MOVIETICKETING
             HighlightSidebar(MoviesButton);
         }
 
+        // UPDATED: Account_Click now includes a "Change Password" button
         private void Account_Click(object sender, RoutedEventArgs e)
         {
             MainContent.Children.Clear();
@@ -113,8 +114,30 @@ namespace MOVIETICKETING
                 HorizontalAlignment = HorizontalAlignment.Center
             });
 
+            // ADDED: Change Password Button
+            var changePasswordButton = new Button
+            {
+                Content = "Change Password",
+                Margin = new Thickness(0, 20, 0, 0),
+                Padding = new Thickness(10, 5, 0, 0),
+                Background = new SolidColorBrush(Color.FromRgb(58, 134, 255)),
+                Foreground = Brushes.White,
+                FontWeight = FontWeights.Bold,
+                Width = 200,
+                HorizontalAlignment = HorizontalAlignment.Center
+            };
+            changePasswordButton.Click += ChangePasswordButton_Click;
+            stack.Children.Add(changePasswordButton);
+
             MainContent.Children.Add(stack);
             HighlightSidebar(AccountButton);
+        }
+
+        // ADDED: Event handler for the new button
+        private void ChangePasswordButton_Click(object sender, RoutedEventArgs e)
+        {
+            ChangePasswordWindow changePasswordWindow = new ChangePasswordWindow(this.userEmail);
+            changePasswordWindow.ShowDialog();
         }
 
         private void Search_Click(object sender, RoutedEventArgs e)
@@ -208,16 +231,5 @@ namespace MOVIETICKETING
 
             selected.Background = new SolidColorBrush(Color.FromRgb(167, 201, 87));
         }
-    }
-
-    public class Movie
-    {
-        public int MovieID { get; set; }
-        // FIX: Initialized properties to satisfy non-nullable warnings
-        public string Title { get; set; } = string.Empty;
-        public string Genre { get; set; } = string.Empty;
-        public int Duration { get; set; }
-        public DateTime DateRelease { get; set; }
-        public string ImageFile { get; set; } = string.Empty;
     }
 }

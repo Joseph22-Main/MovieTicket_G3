@@ -2,7 +2,7 @@
 using System.Windows.Controls;
 using System.Windows.Data;
 using System;
-using Microsoft.Data.SqlClient; // UPDATED: Using the new SQL client
+using Microsoft.Data.SqlClient;
 using System.Configuration;
 
 namespace MOVIETICKETING
@@ -67,6 +67,14 @@ namespace MOVIETICKETING
             {
                 ErrorText.Text = "Invalid admin credentials.";
             }
+        }
+
+        // ADDED: Click handler for the new Register button
+        private void RegisterButton_Click(object sender, RoutedEventArgs e)
+        {
+            RegisterWindow registerWindow = new RegisterWindow();
+            registerWindow.Show();
+            this.Close();
         }
 
         private bool AuthenticateUser(string email, string password, bool isAdmin)

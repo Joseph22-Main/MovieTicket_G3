@@ -68,7 +68,7 @@ namespace MOVIETICKETING {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MOVIETICKETING;V1.0.0.0;component/snackreceiptwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MOVIETICKETING;component/snackreceiptwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\SnackReceiptWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
