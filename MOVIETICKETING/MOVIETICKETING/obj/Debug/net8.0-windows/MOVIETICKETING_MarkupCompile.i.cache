@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Joseph Emmanuel\OneDrive\Desktop\CPE106\MOVIE_WPF\MOVIETICKETING\MOVIETICKETING\obj\Debug\net8.0-windows\
+C:\Users\Francis\Desktop\toru's stuff\CPE106_Project\MovieTicket_G3\MOVIETICKETING\MOVIETICKETING\obj\Debug\net8.0-windows\
 MOVIETICKETING
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\Joseph Emmanuel\OneDrive\Desktop\CPE106\MOVIE_WPF\MOVIETICKETING\MOVIETICKETING\App.xaml
-71350466891
+C:\Users\Francis\Desktop\toru's stuff\CPE106_Project\MovieTicket_G3\MOVIETICKETING\MOVIETICKETING\App.xaml
+8-1252486175
 51167803976
-12-1018434771
-198-537775612
-LoginWindow.xaml;MainWindow.xaml;ReceiptWindow.xaml;SeatSelectionWindow.xaml;SnackMenuWindow.xaml;SnackOrderSummaryWindow.xaml;SnackReceiptWindow.xaml;
+13-1763220742
+216-707021494
+AdminDashboardWindow.xaml;LoginWindow.xaml;MainWindow.xaml;ReceiptWindow.xaml;SeatSelectionWindow.xaml;SnackMenuWindow.xaml;SnackOrderSummaryWindow.xaml;SnackReceiptWindow.xaml;
 
 False
 

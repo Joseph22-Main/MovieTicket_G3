@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Joseph Emmanuel\\OneDrive\\Desktop\\CPE106\\MOVIE_WPF\\MOVIETICKETING\\MOVIETICKETING\\MOVIETICKETING.csproj": {}
+    "C:\\Users\\Francis\\Desktop\\toru's stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\MOVIETICKETING.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Joseph Emmanuel\\OneDrive\\Desktop\\CPE106\\MOVIE_WPF\\MOVIETICKETING\\MOVIETICKETING\\MOVIETICKETING.csproj": {
+    "C:\\Users\\Francis\\Desktop\\toru's stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\MOVIETICKETING.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joseph Emmanuel\\OneDrive\\Desktop\\CPE106\\MOVIE_WPF\\MOVIETICKETING\\MOVIETICKETING\\MOVIETICKETING.csproj",
+        "projectUniqueName": "C:\\Users\\Francis\\Desktop\\toru's stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\MOVIETICKETING.csproj",
         "projectName": "MOVIETICKETING",
-        "projectPath": "C:\\Users\\Joseph Emmanuel\\OneDrive\\Desktop\\CPE106\\MOVIE_WPF\\MOVIETICKETING\\MOVIETICKETING\\MOVIETICKETING.csproj",
-        "packagesPath": "C:\\Users\\Joseph Emmanuel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joseph Emmanuel\\OneDrive\\Desktop\\CPE106\\MOVIE_WPF\\MOVIETICKETING\\MOVIETICKETING\\obj\\",
+        "projectPath": "C:\\Users\\Francis\\Desktop\\toru's stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\MOVIETICKETING.csproj",
+        "packagesPath": "C:\\Users\\Francis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Francis\\Desktop\\toru's stuff\\CPE106_Project\\MovieTicket_G3\\MOVIETICKETING\\MOVIETICKETING\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Joseph Emmanuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Francis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -49,6 +49,16 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,6 +70,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.18, 8.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.18, 8.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.18, 8.0.18]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.18, 8.0.18]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -68,7 +96,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
