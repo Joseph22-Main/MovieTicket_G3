@@ -1,0 +1,15 @@
+﻿<Window x:Class="MOVIETICKETING.SnackMenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Snack Menu" Height="400" Width="350">
+    <Grid Margin="10">
+        <StackPanel>
+            <TextBlock Text="Select Snacks:" FontSize="18" FontWeight="Bold" Margin="0,0,0,10"/>
+            <CheckBox Content="Popcorn - ₱100" x:Name="PopcornCheckBox"/>
+            <CheckBox Content="Soda - ₱50" x:Name="SodaCheckBox"/>
+            <CheckBox Content="Nachos - ₱120" x:Name="NachosCheckBox"/>
+            <CheckBox Content="Hotdog - ₱80" x:Name="HotdogCheckBox"/>
+            <Button Content="Confirm Snacks" Click="ConfirmSnacks_Click" Margin="0,10"/>
+        </StackPanel>
+    </Grid>
+</Window>

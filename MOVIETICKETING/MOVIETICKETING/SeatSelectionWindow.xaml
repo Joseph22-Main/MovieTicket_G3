@@ -1,0 +1,21 @@
+﻿<Window x:Class="MOVIETICKETING.SeatSelectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Seat Selection" Height="450" Width="600">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="MovieTitle" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+        <UniformGrid Grid.Row="1" Columns="5" Rows="5" Margin="0,10">
+            <!-- Seat buttons -->
+            <Button Content="A1" Click="Seat_Click"/>
+            <Button Content="A2" Click="Seat_Click"/>
+            <!-- Add remaining seats as needed -->
+        </UniformGrid>
+        <Button Grid.Row="2" Content="Confirm Selection" Click="Confirm_Click" Margin="0,10" HorizontalAlignment="Center"/>
+    </Grid>
+</Window>
